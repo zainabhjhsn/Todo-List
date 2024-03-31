@@ -24,4 +24,6 @@ model User {
   userName String @unique
   email String @unique
   hashedPassword String 
+  // role String @default("USER")
+  // tasks Task[]
 }
